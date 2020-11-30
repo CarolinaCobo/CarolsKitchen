@@ -38,8 +38,14 @@
 <!--Love Running project-->
 
 <section id="hero-outer">
-	    <img class="img-responsive" id="hero-image" src="assets/photos/hero-image.jpg" alt="hero-image">
-		<div id="cover-text">
+	
+			<picture>
+				<source media="(max-width: 799px)" srcset="assets/photos/hero-image-480w.jpg">
+				<source media="(min-width: 800px)" srcset="assets/photos/hero-image-800w.jpg">
+				<img src="assets/photos/hero-image-800w.jpg" alt="hero image">
+			</picture>
+        
+        <div id="cover-text">
 			<h2>Authentic Spanish Recipes</h2>
             <h5>to bring the Spanish cuisine into your kitchen.</h5>
 		</div>
@@ -83,10 +89,10 @@
 	</div>
 </section>
 
-<!--Resume project-->
+<!--Resume project, fixed icons-->
 <footer>
 
-    <div class="col-sm-4">
+    <div class="footer-icons">
         <h5 class="uppercase general-sub">Follow us!</h5>
         <ul class="list-inline social-links">
             <li class="list-inline-item">
