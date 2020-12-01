@@ -1,20 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
 
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* Took it from Stack Overflow, makes the site take the whole width */
+html, body {
+    overflow: auto;
+}
+
+ul, ol {
+    padding-inline-start: 20px;
+}
+
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+section {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
 
 /*--------------------------------------------Navbar*/
 .navbar {
-    background-color: #f8f1f1;
+    background-color: #fafafa;
 }
 
 .navbar-brand {
     font-family: "Anton", sans-serif;
-    font-size: 40px;
+    font-size: 1.563rem;
     
+}
+
+.nav-link a:hover {
+    background: #16697a;
 }
 
 .nav-link {
     font-family: 'Noto Sans JP', sans-serif;
-        font-size: 20px;
+        font-size: 1rem;
 
 
 }
@@ -22,13 +54,20 @@
 /*--------------------------------------------Hero image section*/
 #hero-outer {
     position: relative;
+    width: 100%;
 }
 
 #hero-image {
-    max-width: 100%;
-    height: auto;
+    height: 750px;
     opacity: 0.6;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
 
+#hero-image > img {
+    width: 100%;
 }
 
 #cover-text {
@@ -45,13 +84,19 @@
     top: 60%;
     left: 40%;
     transform: translateX(0, 50%);
-
     padding: 40px;
-
-
 }
 
-/*--------------------------------------------Cards*/
+@media (max-width: 768px) {
+  #cover-text {
+    left: 10%;
+    right: 10%;
+    top: 20%;
+  }
+}
+
+
+/*--------------------------------------------Cards (Bootstrap documentation) */
 .card-group {
     font-family: 'Noto Sans JP', sans-serif;
     margin: 60px 20px 50px 20px;
@@ -59,6 +104,11 @@
 
 .card {
     margin: 0 10px 0 20px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+    border: none;
+    border-radius: 10px;
+
+   
 }
 
 .card-title {
@@ -80,12 +130,16 @@
 }
 
 
-/* ----------------------------------------Footer */
+/* -----------------------------------Footer (Resume project with some changes) */
 
 footer {
-    background-color: #f8f1f1;
-    height: auto;
-    margin: 15px;
+    background-color: #fafafa;
+    width: 100%;
+}
+
+.footer-icons {
+    text-align: right;
+    padding: 15px 25px 0 0;
 }
 
 .general-sub {
@@ -95,6 +149,7 @@ footer {
 }
 .social-links {
     padding-bottom: 20px;
+    margin: 0;
 }
 
 .social-links li a i {
@@ -114,7 +169,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #16697a;
+    background-color: #16697a;
 }
 
 #footer-details {
@@ -123,6 +178,104 @@ footer {
 
 
 
-
 /* ---------------------------------------Contact form */
 
+.contact-heading {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+
+.btn-secondary {
+    color: #fff;
+    background-color: #8f8f8f;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+     background-color: #16697a;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+
+}
+
+
+/* ---------------------------------------Recipes */
+/* Obtained in W3Schools */
+
+.row {
+  display: flex;
+}
+
+.column {
+  
+  padding: 10px;
+}
+
+.ingredients,
+.cooking-steps {
+    padding: 20px auto;
+}
+
+
+/* ---------------------------------------Croqueta page */
+.croquetas {
+   display: flex;
+   flex-direction: column;
+}
+
+.croqueta-intro {
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 20px 0;
+    line-height: 30px;
+}
+
+.croqueta-text {
+    font-size: 4rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 4px;
+
+    background-color: #16697a;
+    color: #fafafa;
+    opacity: .85;
+
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(0, 50%);
+    padding: 40px;
+}
+
+.croqueta-image {
+    height: 600px;
+    opacity: 0.6;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.croqueta-image > img {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+ .croqueta-text {
+    left: 10%;
+    right: 10%;
+    top: 20%;
+  }
+}

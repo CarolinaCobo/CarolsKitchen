@@ -71,11 +71,16 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- Box Shadow in CSS line 72 is from [Box Shadow - TailwindCSS](https://tailwindcss.com/docs/box-shadow)
+
+- Responsive Hero Image was obtained from [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from [Pixabay](https://pixabay.com/)
+- The icons used in this site were obtained from [FontAwesome](https://fontawesome.com/)
+- The fonts used in this site were obtained from [Google Fonts](https://fonts.google.com)
+- The color palette used in this site was obtained from [Colorhunt.co](https://colorhunt.co)
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from [Donal Skehan](https://donalskehan.com/recipes/)
