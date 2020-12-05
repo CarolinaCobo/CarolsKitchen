@@ -27,8 +27,6 @@ section {
     margin: 0 auto;
 }
 
-
-
 /*--------------------------------------------Navbar*/
 .navbar {
     background-color: #fafafa;
@@ -145,6 +143,10 @@ section {
 
 }
 
+.carousel-recipes {
+    margin-bottom: 40px;
+}
+
 
 /* --------------------------------Footer (Resume project with some changes) */
 
@@ -154,7 +156,7 @@ footer {
 }
 
 .footer-icons {
-    text-align: right;
+    text-align: center;
     padding: 15px 25px 0 0;
 }
 
