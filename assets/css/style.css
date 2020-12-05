@@ -133,6 +133,15 @@ section {
     color: #fafafa; 
 }
 
+/* --------------------------------------- Carousel */
+
+.carousel-item {
+  width:100%;
+  height:600px;
+  margin: 40px 0 40px 0;
+
+}
+
 
 /* --------------------------------Footer (Resume project with some changes) */
 
@@ -234,7 +243,7 @@ button[type="submit"] {
 }
 
 
-/* ---------------------------------------Croqueta page */
+/* ------------------------------------Croqueta page (Love running proyect) */
 .croquetas {
    display: flex;
    flex-direction: column;
@@ -283,3 +292,5 @@ button[type="submit"] {
     top: 20%;
   }
 }
+
+
