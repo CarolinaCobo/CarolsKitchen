@@ -134,6 +134,9 @@ section {
 }
 
 /* --------------------------------------- Carousel */
+.carousel-recipes h3 {
+    text-align: center;
+}
 
 .carousel-item {
   width:100%;
