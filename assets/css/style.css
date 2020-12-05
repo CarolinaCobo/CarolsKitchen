@@ -47,8 +47,6 @@ section {
 .nav-link {
     font-family: 'Noto Sans JP', sans-serif;
         font-size: 1rem;
-
-
 }
 
 /*--------------------------------------------Hero image section*/
@@ -95,6 +93,14 @@ section {
   }
 }
 
+/*-------------------------------------------Intro text */
+.intro-text {
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 20px 0;
+    line-height: 30px;
+    text-align:center;
+}
+
 
 /*--------------------------------------------Cards (Bootstrap documentation) */
 .card-group {
@@ -107,8 +113,6 @@ section {
     box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
     border: none;
     border-radius: 10px;
-
-   
 }
 
 .card-title {
@@ -130,7 +134,7 @@ section {
 }
 
 
-/* -----------------------------------Footer (Resume project with some changes) */
+/* --------------------------------Footer (Resume project with some changes) */
 
 footer {
     background-color: #fafafa;
