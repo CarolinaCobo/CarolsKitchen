@@ -147,9 +147,12 @@ section {
 
 .carousel {
     margin: 40px auto;
-   
     max-width: var(--max-width);
     
+}
+
+.carousel-item {
+    max-height: 650px;
 }
 
 /* --------------------------------Footer (Resume project with some changes) */
@@ -196,41 +199,6 @@ footer {
 
 #footer-details {
     padding: 60px;
-}
-
-
-
-/* ---------------------------------------Contact form */
-
-.contact-heading {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 20px;
-}
-
-.center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
-}
-
-
-.btn-secondary {
-    color: #fff;
-    background-color: #8f8f8f;
-}
-
-.btn-secondary:hover {
-    color: #fff;
-     background-color: #16697a;
-}
-
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: #fafafa;
-
 }
 
 
@@ -303,3 +271,39 @@ button[type="submit"] {
 }
 
 
+/* ---------------------------------------Contact form */
+
+.contact-heading {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+
+.btn-secondary {
+    color: #fff;
+    background-color: #8f8f8f;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+     background-color: #16697a;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    color: #fafafa;
+
+}
+
+.form-control {
+    margin: 10px ;
+}
