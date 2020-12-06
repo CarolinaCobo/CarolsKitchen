@@ -252,19 +252,19 @@ button[type="submit"] {
 }
 
 
-/* ------------------------------------Croqueta page (Love running proyect) */
-.croquetas {
+/* ------------------------------------Recipe pages (Love running proyect) */
+.recipe-page {
    display: flex;
    flex-direction: column;
 }
 
-.croqueta-intro {
+.title-text {
     font-family: 'Noto Sans JP', sans-serif;
     padding: 20px 0;
     line-height: 30px;
 }
 
-.croqueta-text {
+.recipe-name {
     font-size: 4rem;
     font-family: 'Noto Sans JP', sans-serif;
     letter-spacing: 4px;
@@ -281,7 +281,7 @@ button[type="submit"] {
     padding: 40px;
 }
 
-.croqueta-image {
+.food-image {
     height: 600px;
     opacity: 0.6;
     position: relative;
@@ -290,12 +290,12 @@ button[type="submit"] {
     width: 100%;
 }
 
-.croqueta-image > img {
+.food-image > img {
     width: 100%;
 }
 
 @media (max-width: 768px) {
- .croqueta-text {
+ .recipe-name {
     left: 10%;
     right: 10%;
     top: 20%;
