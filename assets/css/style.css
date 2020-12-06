@@ -71,7 +71,7 @@ section {
     width: 100%;
 }
 
-#cover-text {
+.cover-text {
     font-size: 5rem;
     font-family: 'Noto Sans JP', sans-serif;
     letter-spacing: 4px;
@@ -89,7 +89,7 @@ section {
 }
 
 @media (max-width: 768px) {
-  #cover-text {
+  .cover-text {
     left: 10%;
     right: 10%;
     top: 20%;
