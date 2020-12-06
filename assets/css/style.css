@@ -101,6 +101,10 @@ section {
 
 
 /*--------------------------------------------Cards (Bootstrap documentation) */
+#recipe-cards > h3 {
+    text-align: center;
+}
+
 .card-group {
     font-family: 'Noto Sans JP', sans-serif;
     margin: 60px 20px 50px 20px;
