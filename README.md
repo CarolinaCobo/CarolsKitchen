@@ -80,6 +80,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The icons used in this site were obtained from [FontAwesome](https://fontawesome.com/)
 - The fonts used in this site were obtained from [Google Fonts](https://fonts.google.com)
 - The color palette used in this site was obtained from [Colorhunt.co](https://colorhunt.co)
+- Form https://formspree.io/forms/myybnywk/integration
 
 ### Acknowledgements
 

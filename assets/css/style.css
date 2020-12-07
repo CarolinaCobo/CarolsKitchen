@@ -33,6 +33,12 @@ section {
     margin: 0 auto;
 }
 
+/*--------------------------------------------Utilities*/
+.relative {
+    position: relative;
+}
+
+
 /*--------------------------------------------Navbar*/
 .navbar {
     background-color: #fafafa;
@@ -304,7 +310,7 @@ footer {
 
   .food-image {
     height: auto;
-}
+  }
 }
 
 
