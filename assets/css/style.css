@@ -11,7 +11,8 @@
     --max-width: 1400px;
 }
 
-/* Took it from Stack Overflow, makes the site take the whole width */
+
+/* Took it from Stack Overflow */
 html, body {
     overflow: auto;
 }
@@ -72,7 +73,6 @@ section {
 }
 
 .cover-text {
-    font-size: 5rem;
     font-family: 'Noto Sans JP', sans-serif;
     letter-spacing: 4px;
 
@@ -88,11 +88,36 @@ section {
     padding: 40px;
 }
 
+  .cover-text > h1 {
+      font-size: 2rem;
+  }
+
+  .cover-text > p {
+      font-size: 1.5rem;
+  }
+
 @media (max-width: 768px) {
   .cover-text {
+    padding: 10px; 
     left: 10%;
     right: 10%;
     top: 20%;
+
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 4px;
+
+    background-color: #16697a;
+    color: #fafafa;
+    opacity: .85;
+ 
+  }
+
+  .cover-text > h1 {
+      font-size: 1.5rem;
+  }
+
+  .cover-text > p {
+      font-size: 1rem;
   }
 }
 
@@ -101,7 +126,7 @@ section {
     font-family: 'Noto Sans JP', sans-serif;
     padding: 20px 0;
     line-height: 30px;
-    text-align:center;
+    text-align: center;
 }
 
 
@@ -263,11 +288,23 @@ footer {
 }
 
 @media (max-width: 768px) {
- .recipe-name {
+  .recipe-name {
+    padding: 10px; 
     left: 10%;
     right: 10%;
     top: 20%;
+
+    letter-spacing: 4px;
+    font-size: 1.5rem;
+
+    background-color: #16697a;
+    color: #fafafa;
+    opacity: .85;
   }
+
+  .food-image {
+    height: auto;
+}
 }
 
 
