@@ -55,8 +55,7 @@ section {
 }
 
 .nav-link {
-    font-family: 'Noto Sans JP', sans-serif;
-        font-size: 1rem;
+   font-size: 1rem;
 }
 
 /*--------------------------------------------Hero image section*/
@@ -79,7 +78,6 @@ section {
 }
 
 .cover-text {
-    font-family: 'Noto Sans JP', sans-serif;
     letter-spacing: 4px;
 
     background-color: #16697a;
@@ -108,8 +106,6 @@ section {
     left: 10%;
     right: 10%;
     top: 20%;
-
-    font-family: 'Noto Sans JP', sans-serif;
     letter-spacing: 4px;
 
     background-color: #16697a;
@@ -129,7 +125,6 @@ section {
 
 /*-------------------------------------------Intro text */
 .intro-text {
-    font-family: 'Noto Sans JP', sans-serif;
     padding: 20px 0;
     line-height: 30px;
     text-align: center;
@@ -142,7 +137,6 @@ section {
 }
 
 .card-group {
-    font-family: 'Noto Sans JP', sans-serif;
     margin: 60px 20px 50px 20px;
 }
 
@@ -199,7 +193,6 @@ footer {
 }
 
 .general-sub {
-    font-family: 'Noto Sans JP', sans-serif;
     margin-bottom: 15px;
 
 }
@@ -258,14 +251,12 @@ footer {
 }
 
 .info-text {
-    font-family: 'Noto Sans JP', sans-serif;
     padding: 20px 0;
     line-height: 30px;
 }
 
 .recipe-name {
     font-size: 4rem;
-    font-family: 'Noto Sans JP', sans-serif;
     letter-spacing: 4px;
 
     background-color: #16697a;
@@ -317,7 +308,6 @@ footer {
 /* ---------------------------------------Contact form */
 
 .contact-heading {
-    font-family: 'Noto Sans JP', sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
