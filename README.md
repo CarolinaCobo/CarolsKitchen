@@ -4,37 +4,53 @@ Spanish recipes in English.
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+As a user, I want to be able to find recipes easily so that I can cook different dishes. End user goal: Have access to recipes. End business goal: increase the users of the website. Acceptance criteria: * website is easy to use and get likes on the social media * this will be showed through wireframes. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+Desktop wireframe:
+![Desktop Wireframe](assets/wireframes/desktop.png) 
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+Mobile wireframe:
+![Mobile Wireframe](assets/wireframes/mobile.png) 
 
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
 - Feature 1 - allows users to see all the available recipes.
-- Feature 2 - allows users to click and see the ingredients and recipes.
+- Feature 2 - allows users to click and see the ingredients and steps for the recipes.
+- Feature 3 - Allows users to send a message with a question. 
+
 
 Future features: 
-- Request 
+- Video explanation in the different steps of the recipes. 
+- Ranking most shared recipes. 
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- Button to share recipes on social networks. 
 
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [HTML](https://www.w3schools.com/html/html_intro.asp)
+    - This project uses **HTML** to build the structure of my project. 
 
+- [CSS](https://www.w3schools.com/css/css_intro.asp)
+    - This project uses **CSS** to style HTML.
+
+- [Bootstrap](https://getbootstrap.com/)
+    - This project uses **Bootstrap** to void use their framework on the site.
+
+- [CSS Variables](https://developer.mozilla.org/en-US/)
+    - This project uses **CSS Variables** to avoid reusing properties. I've seen them on the console and wanted to try them as well. 
+
+- [Tiny Png](https://tinypng.com/)
+    - This project uses **Tiny PNG** to reduces images size. 
+
+- [Google Fonts](https://tinypng.com/)
+    - This project uses **Google Fonts** for the two fonts used in the project. 
+    
 
 ## Testing
 
