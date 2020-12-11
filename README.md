@@ -1,4 +1,4 @@
-# Your Project's Name
+# Carol's Kitchen
 
 Spanish recipes in English. 
  
