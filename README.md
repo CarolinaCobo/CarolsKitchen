@@ -3,25 +3,31 @@
 Spanish recipes in English. 
  
 ## UX
- 
-As a user, I want to be able to find recipes easily so that I can cook different dishes. End user goal: Have access to recipes. End business goal: increase the users of the website. Acceptance criteria: * website is easy to use and get likes on the social media * this will be showed through wireframes. 
+USER STORIES:
+- As a user I want to find Spanish recipes. 
+- As a user I want to easily navigate the site. 
+- As a user I want to contact the site owner.
+- As the site owner I want people to find recipes and navigate them easily.
 
 Desktop wireframe:
+
 ![Desktop Wireframe](assets/wireframes/desktop.png) 
 
 Mobile wireframe:
+
 ![Mobile Wireframe](assets/wireframes/mobile.png) 
 
 
 ## Features
  
 ### Existing Features
-- Feature 1 - allows users to see all the available recipes.
-- Feature 2 - allows users to click and see the ingredients and steps for the recipes.
+- Feature 1 - Allows users to see all the available recipes.
+- Feature 2 - Allows users to click and see the ingredients and steps for the recipes.
 - Feature 3 - Allows users to send a message with a question. 
 
 
 Future features: 
+- Recipes linked to the carousel.
 - Video explanation in the different steps of the recipes. 
 - Ranking most shared recipes. 
 
@@ -47,10 +53,9 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [Tiny Png](https://tinypng.com/)
     - This project uses **Tiny PNG** to reduces images size. 
-
-- [Google Fonts](https://tinypng.com/)
-    - This project uses **Google Fonts** for the two fonts used in the project. 
     
+- [Favicon.io](https://favicon.io/)
+    - This project uses **Favicon** for the site Favicon.
 
 ## Testing
 
@@ -72,6 +77,18 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+
+What do you do? | Expected Behaviour | Pass/Fail  |
+| ------------- |-------------| -----|
+| Click picture to open recipe| Open recipe in a new tab | Pass |
+| Click link to open recipe| Open recipe in a new tab | Pass |
+| Click Recipes on navbar | Scroll down to Recipe section | Pass |
+| Slide on carousel| Slide to the left and the right|   Pass |
+| Open social media links | Open a new tab | Pass |
+| Contact the site owner | Request a name, email with the correct format and the question | Pass |
+| Submit a question | Show alert for message received | Pass |
+
+
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -87,16 +104,20 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- Box Shadow in CSS line 72 is from [Box Shadow - TailwindCSS](https://tailwindcss.com/docs/box-shadow)
-
-- Responsive Hero Image was obtained from [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+All the content on this site is my own.
 
 ### Media
 - The photos used in this site were obtained from [Pixabay](https://pixabay.com/)
 - The icons used in this site were obtained from [FontAwesome](https://fontawesome.com/)
 - The fonts used in this site were obtained from [Google Fonts](https://fonts.google.com)
 - The color palette used in this site was obtained from [Colorhunt.co](https://colorhunt.co)
-- Form https://formspree.io/forms/myybnywk/integration
+
+
+
+
+- Box Shadow in CSS line 72 is from [Box Shadow - TailwindCSS](https://tailwindcss.com/docs/box-shadow)
+
+- Responsive Hero Image was obtained from [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
 ### Acknowledgements
 
