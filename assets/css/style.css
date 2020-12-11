@@ -352,3 +352,16 @@ button[type="submit"] {
 .form-control {
     margin: 10px ;
 }
+
+/* ---------------------------------------Thank you page */
+
+.thankyou-message{
+    text-align: center;
+    max-width: var(--max-width);
+    margin: 40px 60px;
+}
+
+.thankyou-button {
+    margin-top: 2rem;
+
+}
