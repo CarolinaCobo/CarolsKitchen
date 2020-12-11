@@ -50,16 +50,17 @@
                 <h5 class="uppercase text-center">Let me help you!</h5>
 
                 <div class="center-form">
-                    <form>
+                    <form method="get" action="thankyou.html">
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
                         <input type="email"  name="_replyto" id="emailaddress" class="form-control" placeholder="Email" required />
                         <textarea rows="5" name="question" id="question" class="form-control" placeholder="Question" required></textarea>
-                       
                         <div class="form-row text-center">
                             <div class="col">
-                                <button type="submit" class="btn btn-secondary" onclick="redirect()">Submit</button>
+                                <button type="submit" class="btn btn-primary" >Submit</button>
                             </div>
                         </div>
+                        
+
                     </form> 
                 </div>
             </div>
@@ -114,14 +115,7 @@
     
     
 </footer>
-    <script type="text/javascript" language="javascript">
-        function redirect(){
-             alert("Thanks for submitting a question, we'll get back to you shortly!");
-             
-        }
-        
-        
-    </script>
+ 
 </body>
 
 </html>

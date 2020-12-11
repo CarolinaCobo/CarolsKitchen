@@ -330,12 +330,14 @@ footer {
 }
 
 
-.btn-secondary {
+.btn-primary {
     color: #fff;
     background-color: #8f8f8f;
+    margin-bottom: 2rem;
+    border: none;
 }
 
-.btn-secondary:hover {
+.btn-primary:hover {
     color: #fff;
      background-color: #16697a;
 }
