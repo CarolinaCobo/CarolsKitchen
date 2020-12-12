@@ -88,8 +88,7 @@ Future features:
 
 ## Technologies Used
 
-### Languages
-
+### Languages 
 - HTML - language for the structure of this site. 
 - CSS - to style and fix media queries and the max width.
 
@@ -102,7 +101,8 @@ Future features:
 - [CSS Variables](https://developer.mozilla.org/en-US/)
     - This project uses **CSS Variables** to avoid reusing properties. I've seen them on the console and wanted to try them as well to help the site to be responsive. In the root and in different places to give the site a max widht. 
 
-### Tools 
+### Tools
+
 [Gitpod](https://www.gitpod.io/) - used as IDE for the project.
 [Git](https://git-scm.com/) - used for version control.
 [Github](https://github.com/) - used to host repository and to generate the live website.
@@ -128,10 +128,10 @@ As a user I want to find Spanish recipes.
 - As the site owner I want people to find recipes and navigate them easily.
     * Information is clear and easy to read for the users. 
 
-### Testing responsiveness 
+### Testing responsiveness
 - With Google Developer Tools in Chrome in all screen sizes.
 
-### Browsers 
+### Browsers
 Manually tested: 
 - Chrome.
 - Safari.
@@ -178,7 +178,16 @@ What do you do? | Expected Behaviour | Pass/Fail  |
 
 Video testing the site in the following [link](https://www.loom.com/share/d0486bb5644848f4a9adae4a688c12ba)
 
-### Bugs
+### Bugs found and fixed
+- Hero image was not taking full width. To fix that I added a CSS variable so it's easily used accross the code. 
+- Footer icons broken, updated the link to a newer version. 
+- Card border one of the sides of the cards was not appearing as I modified the style so I looked for inspiration in other sites and changed it. 
+- Links on the footer were not properly added to the code. 
+- Made images smaller to make them load faster. 
+- While using the Chrome tools I changed the size of the screen so it was not behaving as expected, it's not a proper bug but it took my a while to figure it out. 
+- Images not being responsives, I added a media query to change that when it was a mobile size. 
+
+- Not commiting properly at the beginning as I was doing it after a big few changes, started to do it more frequently since then. If you see that at the beginning the commits level is too low that is the reason. 
 
 ## Deployment
 My site is hosted on GitHub, deployed directly from the master branch. 
