@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
 
 * {
     margin:0;
@@ -40,8 +40,9 @@ hr {
 }
 
 h6 {
-    line-height: 1.6;
+    line-height: 2;
     margin: 20px 80px;
+    font-size: large;
 }
 
 /*--------------------------------------------Utilities*/
