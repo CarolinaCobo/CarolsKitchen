@@ -1,13 +1,19 @@
 # Carol's Kitchen
 
-Spanish recipes in English. 
+Carol's Kitchen is a site that offers Spanish recipes in English. The website is designed to be easy to navigate. 
  
+A live version of the site is available [here](https://carolinacobo.github.io/CarolsKitchen/)
+
+For this project it was required to create a user centric website using HTML5, and CSS supported by other libraries as Bootstrap. 
+
 ## UX
-USER STORIES:
+### User stories:
 - As a user I want to find Spanish recipes. 
 - As a user I want to easily navigate the site. 
 - As a user I want to contact the site owner.
 - As the site owner I want people to find recipes and navigate them easily.
+
+
 
 Desktop wireframe:
 
@@ -17,6 +23,14 @@ Mobile wireframe:
 
 ![Mobile Wireframe](assets/wireframes/mobile.png) 
 
+Ipad wireframe:
+
+![Ipad Wireframe](assets/wireframes/ipad.png) 
+
+
+Contact page (Desktop, mobile and Ipad):
+
+![Contact Wireframe](assets/wireframes/contact.png) 
 
 ## Features
  
@@ -86,7 +100,8 @@ What do you do? | Expected Behaviour | Pass/Fail  |
 | Slide on carousel| Slide to the left and the right|   Pass |
 | Open social media links | Open a new tab | Pass |
 | Contact the site owner | Request a name, email with the correct format and the question | Pass |
-| Submit a question | Show alert for message received | Pass |
+| Submit a question | Redirect to a new site | Pass |
+| Submit incomplete form | Request correct information | Pass |
 
 
 ## Deployment
@@ -99,6 +114,8 @@ In particular, you should provide all details of the differences between the dep
 - Separate git branch?
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
+
+My site is deployed 
 
 
 ## Credits
