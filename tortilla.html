@@ -1,124 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-	<title>Carol's Kitchen</title>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>Carol's Kitchen</title>
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-	</script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+        </script>
     <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="assets/favicon/favicon.png"/>
+    <link rel="icon" type="image/png" href="assets/favicon/favicon.png" />
 
 </head>
+
 <body>
 
-<header>
-<!--Bootstrap documentation-->
-<nav class="navbar navbar-expand-lg navbar-light ">
-	<a class="navbar-brand" href="#">Carol's Kitchen</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-	<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-		<div class="navbar-nav justify-content-center">
-			<a class="nav-link" href="index.html">Home</a>
-            <a class="nav-link active" href="#recipe-cards">Recipes<span class="sr-only">(current)</span></a>
-			<a class="nav-link" href="contact.html">Contact</a>
-		</div>
-	</div>
-</nav>
-</header>
+    <!--////HEADER////-->
+    <!--Bootstrap documentation-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">Carol's Kitchen</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav justify-content-center">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link active" href="#recipe-cards">Recipes<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-<section class="recipe-page">
+    <!--////RECIPE////-->
+    <section class="recipe-page">
+        <div class="container">
+            <div>
+                <img class="food-image" src="assets/photos/tortilla.jpg " alt="croquetas">
+            </div>
+            <h3 class="recipe-name">Tortilla</h3>
+            <p class="info-text">Tortilla is one of the easiest and more versatile dishes in the Spanish cuisine. It's
+                really easy to make and you can eat it plain or add different toppings inside of eat, you can even put
+                it in the middle of to slices of bread and have a super easy sandwich!</p>
+            <div class="row">
+                <div class="column ingredients">
+                    <h5>Ingredients:</h5>
+                    <ul>
+                        <li>3-4 big potatoes or 10-12 small ones, just remember to cut them on small pieces.</li>
+                        <li>Olive oil</li>
+                        <li>1 big onion (you can do it without it as well)</li>
+                        <li>Salt</li>
+                        <li>4 eggs</li>
+                    </ul>
+                </div>
 
-	<div class="container">
-        <div>
-        <img class="food-image" src="assets/photos/tortilla.jpg " alt="croquetas">
+                <div class="column cooking-steps">
+                    <h5>Steps:</h5>
+                    <ol>
+                        <li>Chop the onion and potatoes in small pieces.</li>
+                        <li>Put a good amount of olive oil on the pan.</li>
+                        <li> Slowly cook the potatoes onion until they are soft, you can smash it a little bit.</li>
+                        <li>Beat the eggs.</li>
+                        <li>Put the potatoes and onion in the eggs, try to not put too much oil in the mix.</li>
+                        <li>Heat the pan and put the mix back in.</li>
+                        <li>Turn the omelette upside down, use a plate to help you.</li>
+                    </ol>
+                </div>
+            </div>
         </div>
-        <h3 class="recipe-name">Tortilla</h3>
-        <p class="info-text">Tortilla is one of the easiest and more versatile dishes in the Spanish cuisine. It's really easy to make and you can eat it plain or add different toppings inside of eat, you can even put it in the middle of to slices of bread and have a super easy sandwich!</p>
-		<div class="row">
-			<div class="column ingredients">
-            <h5>Ingredients:</h5>
-				<ul>
-					<li>3-4 big potatoes or 10-12 small ones, just remember to cut them on small pieces.</li>
-					<li>Olive oil</li>
-					<li>1 big onion (you can do it without it as well)</li>
-					<li>Salt</li>
-					<li>4 eggs</li>
-				</ul>
-			</div>
-			
-			<div class="column cooking-steps">
-            <h5>Steps:</h5>
-				<ol>
-					<li>Chop the onion and potatoes in small pieces.</li>
-					<li>Put a good amount of olive oil on the pan.</li>
-					<li> Slowly cook the potatoes onion until they are soft, you can smash it a little bit.</li>
-					<li>Beat the eggs.</li>
-					<li>Put the potatoes and onion in the eggs, try to not put too much oil in the mix.</li>
-					<li>Heat the pan and put the mix back in.</li>
-					<li>Turn the omelette upside down, use a plate to help you.</li>
-				</ol>
-			</div>
-		</div>
-	</div>
-</section>
-<!--Resume project, fixed icons-->
-<footer>
+    </section>
 
-    <div class="footer-icons">
-        <h5 class="uppercase general-sub">Follow us</h5>
-        <ul class="list-inline social-links">
-            <li class="list-inline-item">
-                <a target="_blank" href="https://www.facebook.com/">
-                    <i class="fab fa-facebook" aria-hidden="true"></i>
-                    <span class="sr-only">Facebook</span>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a target="_blank" href="https://twitter.com/">
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                    <span class="sr-only">Twitter</span>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a target="_blank" href="https://www.linkedin.com/">
-                    <i class="fab fa-linkedin" aria-hidden="true"></i>
-                    <span class="sr-only">LinkedIn</span>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a target="_blank" href="https://www.pinterest.com/">
-                    <i class="fab fa-pinterest" aria-hidden="true"></i>
-                    <span class="sr-only">Pinterest</span>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a target="_blank" href="https://www.instagram.com/">
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                    <span class="sr-only">Instagram</span>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a target="_blank" href="https://www.youtube.com/">
-                    <i class="fab fa-youtube" aria-hidden="true"></i>
-                    <span class="sr-only">YouTube</span>
-                </a>
-            </li>
-        </ul>
-    </div>
-</footer>
+    <!--////FOOTER////-->
+    <!--Resume project, fixed icons-->
+    <footer>
+
+        <div class="footer-icons">
+            <h5 class="uppercase general-sub">Follow us</h5>
+            <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.facebook.com/">
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://twitter.com/">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.linkedin.com/">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <span class="sr-only">LinkedIn</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.pinterest.com/">
+                        <i class="fab fa-pinterest" aria-hidden="true"></i>
+                        <span class="sr-only">Pinterest</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.instagram.com/">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.youtube.com/">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                        <span class="sr-only">YouTube</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>

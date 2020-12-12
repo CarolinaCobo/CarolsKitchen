@@ -1,132 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-	<title>Carol's Kitchen</title>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>Carol's Kitchen</title>
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-	</script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+        </script>
     <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="assets/favicon/favicon.png"/>
+    <link rel="icon" type="image/png" href="assets/favicon/favicon.png" />
 
 </head>
+
 <body>
 
-<header>
-<!--Bootstrap documentation-->
-<nav class="navbar navbar-expand-lg navbar-light ">
-	<a class="navbar-brand" href="#">Carol's Kitchen</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-	<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-		<div class="navbar-nav justify-content-center">
-			<a class="nav-link" href="index.html">Home</a>
-            <a class="nav-link active" href="#recipe-cards">Recipes<span class="sr-only">(current)</span></a>
-			<a class="nav-link" href="contact.html">Contact</a>
-		</div>
-	</div>
-</nav>
-</header>
+    <!--////HEADER////-->
+    <!--Bootstrap documentation-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">Carol's Kitchen</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav justify-content-center">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link active" href="#recipe-cards">Recipes<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-<section class="recipe-page">
-	<div class="container">
-        <div class="relative">
-        <img class="food-image" src="assets/photos/croquetas.jpg " alt="croquetas">
-        <h3 class="recipe-name">Croquetas</h3>
+    <!--////RECIPE////-->
+    <section class="recipe-page">
+        <div class="container">
+            <div class="relative">
+                <img class="food-image" src="assets/photos/croquetas.jpg " alt="croquetas">
+                <h3 class="recipe-name">Croquetas</h3>
+            </div>
+            <p class="info-text"> Croquetas are one of the most wanted in Spanish tapas menus. These small, lightly
+                breaded and fried béchamel delicatessen include delicious chicken broth, and they aren't hard to
+                re-create at home. Crispy on the outside and creamy on the inside, they are a sure hit as an appetizer
+                for your next party or as an afternoon snack.
+                In order to ensure the best outcome for your croquetas, make sure the chicken is very finely puled so it
+                can be mixed thoroughly with the dough. Once it's made, you leave it in overnight to make the croquetas
+                the next day. You can even make the batter ahead of time, as long as it's covered and kept in the
+                fridge, before frying the croquetas in olive oil.</p>
+            <div class="row">
+                <div class="column ingredients">
+                    <h5>Ingredients:</h5>
+                    <ul>
+                        <li>Chicken breast (1 or 2)</li>
+                        <li>Olive oil</li>
+                        <li>1 big onion or two small onions</li>
+                        <li>Flour</li>
+                        <li>Salt</li>
+                        <li>Chicken stock cubes</li>
+                        <li>Milk</li>
+                        <li>Bread crumbs</li>
+                        <li>Chicken broth (I make it boiling the two chicken breast, 1 onion, 1 chicken stock cube and
+                            the
+                            chicken chest).</li>
+                    </ul>
+                </div>
+
+                <div class="column cooking-steps">
+                    <h5>Steps:</h5>
+                    <ol>
+                        <li>Chop the onion in small pieces.</li>
+                        <li>Put a good amount of olive oil on the pot.</li>
+                        <li> Cook the onion until is transparent, add flour and move it with a whisk or a wooden spoon
+                            until
+                            it’s cooked. You’ll get a paste. </li>
+                        <li>Add milk slowly to dissolve the paste and add the chicken broth, approximately the same
+                            amount.
+                            Add the chicken stock cube, black pepper and the chicken you boiled in the broth.</li>
+                        <li>Stir and then the paste will start to thicken. Keep stirring or it would stick to the pot.
+                            Keep
+                            doing it until it’s difficult to stir it</li>
+                        <li>Let it cool down overnight.</li>
+                        <li>Use a spoon to measure. Bread it with beaten egg and bread crumbs.</li>
+                        <li>Fry</li>
+                    </ol>
+                </div>
+            </div>
         </div>
-        <p class="info-text"> Croquetas are one of the most wanted in Spanish tapas menus. These small, lightly breaded and fried béchamel delicatessen include delicious chicken broth, and they aren't hard to re-create at home. Crispy on the outside and creamy on the inside, they are a sure hit as an appetizer for your next party or as an afternoon snack.
-        In order to ensure the best outcome for your croquetas, make sure the chicken is very finely puled so it can be mixed thoroughly with the dough. Once it's made, you leave it in overnight to make the croquetas the next day. You can even make the batter ahead of time, as long as it's covered and kept in the fridge, before frying the croquetas in olive oil.</p>
-		<div class="row">
-			<div class="column ingredients">
-            <h5>Ingredients:</h5>
-				<ul>
-					<li>Chicken breast (1 or 2)</li>
-					<li>Olive oil</li>
-					<li>1 big onion or two small onions</li>
-					<li>Flour</li>
-					<li>Salt</li>
-					<li>Chicken stock cubes</li>
-					<li>Milk</li>
-					<li>Bread crumbs</li>
-					<li>Chicken broth (I make it boiling the two chicken breast, 1 onion, 1 chicken stock cube and the
-						chicken chest).</li>
-				</ul>
-			</div>
-			
-			<div class="column cooking-steps">
-            <h5>Steps:</h5>
-				<ol>
-					<li>Chop the onion in small pieces.</li>
-					<li>Put a good amount of olive oil on the pot.</li>
-					<li> Cook the onion until is transparent, add flour and move it with a whisk or a wooden spoon until
-						it’s cooked. You’ll get a paste. </li>
-					<li>Add milk slowly to dissolve the paste and add the chicken broth, approximately the same amount.
-						Add the chicken stock cube, black pepper and the chicken you boiled in the broth.</li>
-					<li>Stir and then the paste will start to thicken. Keep stirring or it would stick to the pot. Keep
-						doing it until it’s difficult to stir it</li>
-					<li>Let it cool down overnight.</li>
-					<li>Use a spoon to measure. Bread it with beaten egg and bread crumbs.</li>
-					<li>Fry</li>
-				</ol>
-			</div>
-		</div>
-	</div>
-</section>
-<!--Resume project, fixed icons-->
-<footer>
- <div class="footer-icons">
-        <h5 class="uppercase general-sub">Follow us</h5>
-        <ul class="list-inline social-links">
-            <li class="list-inline-item">
-                <a target="_blank" href="https://www.facebook.com/">
-                    <i class="fab fa-facebook" aria-hidden="true"></i>
-                    <span class="sr-only">Facebook</span>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a target="_blank" href="https://twitter.com/">
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                    <span class="sr-only">Twitter</span>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a target="_blank" href="https://www.linkedin.com/">
-                    <i class="fab fa-linkedin" aria-hidden="true"></i>
-                    <span class="sr-only">LinkedIn</span>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a target="_blank" href="https://www.pinterest.com/">
-                    <i class="fab fa-pinterest" aria-hidden="true"></i>
-                    <span class="sr-only">Pinterest</span>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a target="_blank" href="https://www.instagram.com/">
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                    <span class="sr-only">Instagram</span>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a target="_blank" href="https://www.youtube.com/">
-                    <i class="fab fa-youtube" aria-hidden="true"></i>
-                    <span class="sr-only">YouTube</span>
-                </a>
-            </li>
-        </ul>
-    </div>
-</footer>
+    </section>
+
+    <!--////FOOTER////-->
+    <!--Resume project, fixed icons-->
+    <footer>
+        <div class="footer-icons">
+            <h5 class="uppercase general-sub">Follow us</h5>
+            <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.facebook.com/">
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://twitter.com/">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.linkedin.com/">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <span class="sr-only">LinkedIn</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.pinterest.com/">
+                        <i class="fab fa-pinterest" aria-hidden="true"></i>
+                        <span class="sr-only">Pinterest</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.instagram.com/">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.youtube.com/">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                        <span class="sr-only">YouTube</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
