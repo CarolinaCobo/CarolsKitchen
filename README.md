@@ -6,6 +6,41 @@ A live version of the site is available [here](https://carolinacobo.github.io/Ca
 
 For this project it was required to create a user centric website using HTML5, and CSS supported by other libraries as Bootstrap. 
 
+# Table of contents
+1.  [UX](#ux)
+    * [User stories](#user-stories)
+2. [Structure](#structure)
+* [Design process](#design-process)
+    * [Page structure](#page-structure)
+    * [Home page](#home-page)
+    * [Recipes page](#recipes-page)
+    * [Contact page](#contact-page)
+3. [Styling](#styling)
+* [Colours](#colours)
+* [Fonts](#fonts)
+* [Features](#features)
+    * [Existing features](#existing-features)
+    * [Future features](#future-features)
+4. [Technologies used](#technologies-used)
+* [Languages](#languages)
+* [Libraries](#libraries)
+* [Tools](#tools)
+5. [Testing](#testing)
+* [User stories](#user-stories)
+* [Testing responsiveness](#testing-responsiveness)
+* [Browsers](#browsers)
+* [HTML and CSS validation](#html-and-css-validation)
+* [Tools for testing](#tools-for-testing)
+6. [Tests](#tests)
+* [Bugs found and fixed](#user-stories)
+* [Deployment](#deployment)
+7. [Credits](#credits)
+* [Content](#content)
+* [Media](#media)
+* [Acknowledgements](#acknowledgements)
+* [I received advice and support from](#user-stories)
+
+
 ## UX
 ### User stories:
 - As a user I want to find Spanish recipes. 
@@ -39,15 +74,15 @@ Contact page (Desktop, mobile and Ipad):
 - The navbar on top of the page is static and have the links to the main three areas of the site. It also has the logo and a slight different color, that is the same as the footer. It's responsive and the items collapse on smaller devices. 
 - The home page is the main area where the recipes are listed and are linked so the user can find on a glance what is looking for. It's responsive depending on the device tha page is viewed. 
 
-### Home
+### Home page
 It features two areas of content and links to the third one on the Navbar. 
 - First section is the cards containing the recipes. 
 - Second section is a carousel with more recipes (this is a future feature).
 
-### Recipes 
+### Recipes page
 The recipe sites follow the same structure and picture (same as the home page one) with the Ingredients and Steps. 
 
-### Contact
+### Contact page
 The contact page has three boxes with name, email, question and button to submit a question. Once the question is submited the user will be redirected to a Thank you page and a Home button. 
 
 # Styling
@@ -81,7 +116,7 @@ Anton is used for the site logo and Favicon. Noto Sans JP is used site wide. Bot
 
 - Feature 5 - Footer with links to different social networks. 
 
-Future features: 
+### Future features: 
 - Recipes linked to the carousel.
 - Video explanation in the different steps of the recipes. 
 - Ranking most shared recipes. 
@@ -142,7 +177,7 @@ Code has tested and passed:
 
 Screenshots following this [link](https://github.com/CarolinaCobo/CarolsKitchen/tree/master/assets/tests).
 
-### Test tools: 
+### Tools for testing: 
 
 [Am I Responsive](http://ami.responsivedesign.is/) - for testing purposes. 
 
