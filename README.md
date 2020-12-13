@@ -259,13 +259,14 @@ All the content on this site is my own.
 
 ### Acknowledgements
 
-- I received inspiration for this project from [Donal Skehan](https://donalskehan.com/recipes/)
-[MDN Documentation](https://developer.mozilla.org/en-US/)
-[W3Schools](https://www.w3schools.com/)
-[CSS-Tricks](https://css-tricks.com/)
-[StackOverflow](https://stackoverflow.com/)
-[Codú Community](https://www.youtube.com/channel/UCvI5azOD4eDumpshr00EfIw)
-[FreeCodeCamp](https://www.freecodecamp.org/)
+I received inspiration for this project from: 
+* [Donal Skehan](https://donalskehan.com/recipes/)
+* [MDN Documentation](https://developer.mozilla.org/en-US/)
+* [W3Schools](https://www.w3schools.com/)
+* [CSS-Tricks](https://css-tricks.com/)
+* [StackOverflow](https://stackoverflow.com/)
+* [Codú Community](https://www.youtube.com/channel/UCvI5azOD4eDumpshr00EfIw)
+* [FreeCodeCamp](https://www.freecodecamp.org/)
 
 
 ### I received advice and support from
