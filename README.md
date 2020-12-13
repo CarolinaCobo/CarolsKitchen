@@ -52,7 +52,7 @@ The contact page has three boxes with name, email, question and button to submit
 
 # Styling
 
-## colours
+## Colours
 Using [Colorhunt.co](https://colorhunt.co) I chose a palette with complementary colours that could be found in different sites: 
 - ![#16697a](https://via.placeholder.com/15/16697a/000000?text=+) `#f03c15` - Cover text and when the user hover on the icons. 
 - ![#fafafa](https://via.placeholder.com/15/fafafa/000000?text=+) `#fafafa` - Header, footer, icons and buttons text. 
@@ -88,7 +88,7 @@ Future features:
 
 ## Technologies Used
 
-### Languages 
+### Languages 
 - HTML - language for the structure of this site. 
 - CSS - to style and fix media queries and the max width.
 
@@ -101,20 +101,15 @@ Future features:
 - [CSS Variables](https://developer.mozilla.org/en-US/)
     - This project uses **CSS Variables** to avoid reusing properties. I've seen them on the console and wanted to try them as well to help the site to be responsive. In the root and in different places to give the site a max widht. 
 
-### Tools
+### Tools
 
 [Gitpod](https://www.gitpod.io/) - used as IDE for the project.
+
 [Git](https://git-scm.com/) - used for version control.
+
 [Github](https://github.com/) - used to host repository and to generate the live website.
+
 Balsamiq - used to create the wireframes.
-
-For test porpuses: 
-[Am I Responsive](http://ami.responsivedesign.is/) - for testing purposes. 
-[Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for testing and debugging.
-[w3 html validator](https://validator.w3.org/) - used to test and validate my html code.
-[w3 css validator](https://jigsaw.w3.org/) - used to test and validate my css code.
-Lightouse - 
-
 
 ## Testing
 
@@ -128,22 +123,34 @@ As a user I want to find Spanish recipes.
 - As the site owner I want people to find recipes and navigate them easily.
     * Information is clear and easy to read for the users. 
 
-### Testing responsiveness
+### Testing responsiveness
 - With Google Developer Tools in Chrome in all screen sizes.
 
-### Browsers
+### Browsers
+
 Manually tested: 
 - Chrome.
 - Safari.
 
-### HTML and CSS validation
+### HTML and CSS validation
 
 Code has tested and passed: 
 
 [W3C Markup Validation Service - HTML](https://validator.w3.org/)
+
 [W3C Markup Validation Service - CSS](https://jigsaw.w3.org/css-validator/)
 
 Screenshots following this [link](https://github.com/CarolinaCobo/CarolsKitchen/tree/master/assets/tests).
+
+### Test tools: 
+
+[Am I Responsive](http://ami.responsivedesign.is/) - for testing purposes. 
+
+[Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for testing and debugging.
+
+[w3 html validator](https://validator.w3.org/) - used to test and validate my html code.
+
+[w3 css validator](https://jigsaw.w3.org/) - used to test and validate my css code.
 
 # Tests 
 The following manual tests have been performed, link video at the end. 
@@ -178,7 +185,9 @@ What do you do? | Expected Behaviour | Pass/Fail  |
 
 Video testing the site in the following [link](https://www.loom.com/share/d0486bb5644848f4a9adae4a688c12ba)
 
-### Bugs found and fixed
+
+
+### Bugs found and fixed
 - Hero image was not taking full width. To fix that I added a CSS variable so it's easily used accross the code. 
 - Footer icons broken, updated the link to a newer version. 
 - Card border one of the sides of the cards was not appearing as I modified the style so I looked for inspiration in other sites and changed it. 
@@ -191,7 +200,7 @@ Video testing the site in the following [link](https://www.loom.com/share/d0486b
 
 ## Deployment
 My site is hosted on GitHub, deployed directly from the master branch. 
-- Steps to complete the hostin process: 
+- Steps to complete the hosting process: 
     1. Log into GitHub.
     2. Pick the respository. 
     3. Go to settings. 
@@ -212,6 +221,7 @@ All the content on this site is my own.
 - The favicon for this site has been made in [Favicon.io](https://favicon.io/)
 - The Library Tailwind has been used for inspiration on styles. 
 
+
 ### Acknowledgements
 
 - I received inspiration for this project from [Donal Skehan](https://donalskehan.com/recipes/)
@@ -223,6 +233,7 @@ All the content on this site is my own.
 [FreeCodeCamp](https://www.freecodecamp.org/)
 
 
-### I received advice and support from
-My mentor Dick Vlaanderen.
+### I received advice and support from
+My mentor Dick Vlaanderen
+
 Code Institute - Slack Community.
