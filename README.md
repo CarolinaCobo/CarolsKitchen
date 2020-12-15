@@ -48,22 +48,7 @@ For this project it was required to create a user centric website using HTML5, a
 - As a user I want to contact the site owner.
 - As the site owner I want people to find recipes and navigate them easily.
 
-Desktop wireframe:
-
-![Desktop Wireframe](assets/wireframes/desktop.png) 
-
-Mobile wireframe:
-
-![Mobile Wireframe](assets/wireframes/mobile.png) 
-
-Ipad wireframe:
-
-![Ipad Wireframe](assets/wireframes/ipad.png) 
-
-
-Contact page (Desktop, mobile and Ipad):
-
-![Contact Wireframe](assets/wireframes/contact.png) 
+The wireframes for this project can be find [here](https://github.com/CarolinaCobo/CarolsKitchen/tree/master/assets/wireframes). 
 
 # Structure
 ## Design process
@@ -150,13 +135,18 @@ Balsamiq - used to create the wireframes.
 
 ### User stories
 
-As a user I want to find Spanish recipes. 
+- As a user I want to find Spanish recipes. 
+    * This site offers recipes to the user to cook Spanish recipes.
+
 - As a user I want to easily navigate the site. 
     * The site is easy to use and visual so things can be seen on a glance. 
+
 - As a user I want to contact the site owner.
     * The site has on the Navbar the Contact site that can be accessed from all pages and shows a message when a question is submitted so the user is sure the question has been sent. 
 - As the site owner I want people to find recipes and navigate them easily.
     * Information is clear and easy to read for the users. 
+
+
 
 ### Testing responsiveness
 - With Google Developer Tools in Chrome in all screen sizes.
@@ -166,6 +156,13 @@ As a user I want to find Spanish recipes.
 Manually tested: 
 - Chrome.
 - Safari.
+
+Tested on the following devices:
+- Iphone XS.
+- Samsung.
+- Ipad.
+
+Tested in desktop, phone and tablet sizes.
 
 ### HTML and CSS validation
 
@@ -212,11 +209,19 @@ What do you do? | Expected Behaviour | Pass/Fail  |
 | Click picture to open recipe| Open recipe in a new tab | Pass |
 | Click link to open recipe| Open recipe in a new tab | Pass |
 | Click Recipes on navbar | Scroll down to Recipe section | Pass |
-| Slide on carousel| Slide to the left and the right|   Pass |
-| Open social media links | Open a new tab | Pass |
+| Click left carousel arrow| Slide to the left |   Pass |
+| Click right carousel arrow| Slide to the right |   Pass |
 | Contact the site owner | Request a name, email with the correct format and the question | Pass |
 | Submit a question | Redirect to a new site | Pass |
-| Submit incomplete form | Request correct information | Pass |
+| Open Facebook footer link | Open link in a new page | Pass |
+| Open Twiter footer link | Open link in a new page | Pass |
+| Open LinkedIn footer link | Open link in a new page | Pass |
+| Open Pinterest footer link | Open link in a new page | Pass |
+| Open Instagram footer link | Open link in a new page | Pass |
+| Open Youtube footer link | Open link in a new page | Pass |
+
+
+
 
 Video testing the site in the following [link](https://www.loom.com/share/d0486bb5644848f4a9adae4a688c12ba)
 
@@ -234,7 +239,7 @@ Video testing the site in the following [link](https://www.loom.com/share/d0486b
 - Not commiting properly at the beginning as I was doing it after a big few changes, started to do it more frequently since then. If you see that at the beginning the commits level is too low that is the reason. 
 
 ## Deployment
-My site is hosted on GitHub, deployed directly from the master branch. 
+My site is hosted on GitHub pages, deployed directly from the master branch. 
 - Steps to complete the hosting process: 
     1. Log into GitHub.
     2. Pick the respository. 
@@ -242,6 +247,20 @@ My site is hosted on GitHub, deployed directly from the master branch.
     4. Scroll down to GitHub Pages section.
     5. Select as a source "master branch". 
     6. The page refreshes automatically and the project is deployed. 
+    7. The URL for the page will be public automatically.
+
+
+### Cloning
+To run this code locally, you can clone this repository directly into the editor of your choice by following the steps below:
+
+1. Open Terminal.
+2. Change the current working directory to the location when you want the cloned directory.
+3. Type the following into your Terminal:
+git clone https://github.com/CarolinaCobo/CarolsKitchen.git
+5. Press Enter to create a local clone.
+
+To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+For more information regarding cloning of a repository click [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 
 ## Credits
