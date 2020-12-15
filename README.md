@@ -176,6 +176,8 @@ Screenshots following this [link](https://github.com/CarolinaCobo/CarolsKitchen/
 
 ### Tools for testing: 
 
+Chrome Extension - Responsive viewer. Picture of the site in different screen sizes [here](https://github.com/CarolinaCobo/CarolsKitchen/tree/master/assets/tests)
+
 [Am I Responsive](http://ami.responsivedesign.is/) - for testing purposes. 
 
 [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for testing and debugging.
@@ -222,7 +224,6 @@ What do you do? | Expected Behaviour | Pass/Fail  |
 
 
 
-
 Video testing the site in the following [link](https://www.loom.com/share/d0486bb5644848f4a9adae4a688c12ba)
 
 
@@ -239,15 +240,18 @@ Video testing the site in the following [link](https://www.loom.com/share/d0486b
 - Not commiting properly at the beginning as I was doing it after a big few changes, started to do it more frequently since then. If you see that at the beginning the commits level is too low that is the reason. 
 
 ## Deployment
+
+### GitHub pages
+
 My site is hosted on GitHub pages, deployed directly from the master branch. 
-- Steps to complete the hosting process: 
-    1. Log into GitHub.
-    2. Pick the respository. 
-    3. Go to settings. 
-    4. Scroll down to GitHub Pages section.
-    5. Select as a source "master branch". 
-    6. The page refreshes automatically and the project is deployed. 
-    7. The URL for the page will be public automatically.
+The steps to complete the hosting process: 
+1. Log into GitHub.
+2. Pick the respository. 
+3. Go to settings. 
+4. Scroll down to GitHub Pages section.
+5. Select as a source "master branch". 
+6. The page refreshes automatically and the project is deployed. 
+7. The URL for the page will be public automatically.
 
 
 ### Cloning
